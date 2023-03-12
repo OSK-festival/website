@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ホーム",
+    "path": "/"
+  },
+  {
+    "name": "記念祭について",
+    "path": "/about/"
+  },
+  {
+    "name": "団体一覧",
+    "path": "/groupes/"
+  },
+  {
+    "name": "イベント一覧",
+    "path": "/events/"
+  },
+  {
+    "name": "SNS",
+    "path": "/sns/"
+  }
+]
