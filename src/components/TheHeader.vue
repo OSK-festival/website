@@ -1,23 +1,43 @@
 <template class="header">
-  <div class="header-content mx-3 my-5 flex flex-row justify-between">
+  <div class="header-content mx-4 my-5 flex flex-row justify-between">
     <div class="text-3xl">75th記念祭</div>
     <div class="hidden md:flex md:flex-row">
       <div class="mx-2 my-auto">ああ</div>
       <div class="mx-2 my-auto">ああ</div>
-      <div class="mx-2 my-auto">ああ</div>
+      <div class="mx-2 my-auto" />
+    </div>
+    <div class="my-auto md:hidden">
+      <svg
+        v-if="isMenuOpen"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+          clip-rule="evenodd"
+        />
+      </svg>
     </div>
   </div>
 </template>
 
-<style scoped>
-.header {
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-}
+<script setup>
+  const isMenuOpen = ref(false)
+</script>
 
-.header-content {}
+<style scoped>
+  .header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .header-content {
+  }
 </style>

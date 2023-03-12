@@ -1,6 +1,5 @@
 <template>
-  <TheHeader>
-  </TheHeader>
+  <TheHeader />
 </template>
 
 <script setup></script>
