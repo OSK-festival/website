@@ -1,5 +1,10 @@
 <template>
   <div>
+    <SectionAbout>
+      <template #heading>みだし</template>
+      <template #subHeading>みだしああ</template>
+    </SectionAbout>
+
     <div>aaaa</div>
     <div>aaaa</div>
     <div>aaaa</div>
