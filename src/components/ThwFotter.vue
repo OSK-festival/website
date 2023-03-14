@@ -8,8 +8,8 @@
 
 <script setup lang="ts">
   type Props = {
-    postdata: string
-  }
+    postdata: string;
+  };
 
-  const postdata = defineProps<Props>()
+  const postdata = defineProps<Props>();
 </script>

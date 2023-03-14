@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheHeader class="fixed w-full" />
-    <NuxtPage class="mx-4" />
+    <NuxtPage class="mx-4 h-full" />
   </div>
 </template>
 

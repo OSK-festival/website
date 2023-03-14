@@ -1,6 +1,8 @@
 <template>
-  <div class="flex flex-row justify-between px-4 py-5">
-    <div class="text-3xl font-bold">第75期 記念祭</div>
+  <div class="top-0 flex flex-row justify-between px-4 py-5">
+    <NuxtLink to="/">
+      <div class="text-3xl font-bold">第75期 記念祭</div>
+    </NuxtLink>
     <div class="hidden md:flex md:flex-row">
       <div class="mx-2 my-auto">ああ</div>
       <div class="mx-2 my-auto">ああ</div>
@@ -46,6 +48,12 @@
   const change = () => {
     isMenuOpen.value = !isMenuOpen.value;
   };
+
+  const route = useRoute();
+  watch(
+    () => route.query,
+    () => (isMenuOpen.value = false)
+  );
 </script>
 
 <style scoped>
@@ -56,8 +64,5 @@
     top: 0;
     left: 0;
     z-index: 10;
-  }
-
-  .header-content {
   }
 </style>
