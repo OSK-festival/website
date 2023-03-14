@@ -15,5 +15,4 @@
 <script setup>
   // const { menu } = await useFetch('@asetts/json/menu.json');
   import menuItems from '@/assets/json/menu.json';
-  console.log(menuItems);
 </script>
