@@ -1,12 +1,14 @@
 <template>
   <div class="top-0 flex flex-row justify-between px-4 py-5">
     <NuxtLink to="/">
-      <div class="text-3xl font-bold">第75期 記念祭</div>
+      <div class="text-3xl font-bold">文化祭デモサイト</div>
     </NuxtLink>
     <div class="hidden md:flex md:flex-row">
-      <div class="mx-2 my-auto">ああ</div>
-      <div class="mx-2 my-auto">ああ</div>
-      <div class="mx-2 my-auto" />
+      <div v-for="menuItem of menuItems" :key="menuItem" class="mx-2 my-auto">
+        <NuxtLink :to="menuItem.path">
+          {{ menuItem.name }}
+        </NuxtLink>
+      </div>
     </div>
     <div class="my-auto md:hidden">
       <div class="relative z-30" @click="change">
@@ -43,6 +45,7 @@
 </template>
 
 <script setup>
+  import menuItems from '@/assets/json/menu.json';
   const isMenuOpen = ref(false);
 
   const change = () => {
