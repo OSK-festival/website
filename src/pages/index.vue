@@ -1,83 +1,48 @@
 <template>
   <div>
-    <SectionAbout>
-      <template #heading>みだし</template>
-      <template #subHeading>みだしああ</template>
-      <template #description>みだしああ</template>
-    </SectionAbout>
-    <SectionAbout>
-      <template #heading>みだし</template>
-      <template #subHeading>みだしああ</template>
-    </SectionAbout>
-    <SectionAbout>
-      <template #heading>みだし</template>
-      <template #subHeading>みだしああ</template>
-    </SectionAbout>
-    <SectionAbout>
-      <template #heading>みだし</template>
-      <template #subHeading>みだしああ</template>
-    </SectionAbout>
-    <SectionAbout>
-      <template #heading>みだし</template>
-      <template #subHeading>
-        <SectionBorderBox>aa</SectionBorderBox>
-      </template>
-    </SectionAbout>
-
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
-    <div>aaaa</div>
+    <TopImage />
+    <div>
+      <!------------------------->
+      <ArticleMain>
+        <ArticleHeader>見出し</ArticleHeader>
+        <ArticleContent class="text-xs"
+          >こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</ArticleContent
+        >
+        <ArticleButton>View More</ArticleButton>
+      </ArticleMain>
+      <!------------------------->
+      <ArticleMain>
+        <ArticleHeader>見出し</ArticleHeader>
+        <ArticleContent class="text-xs"
+          >こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</ArticleContent
+        >
+        <ArticleButton>View More</ArticleButton>
+      </ArticleMain>
+      <!------------------------->
+      <ArticleMain>
+        <ArticleHeader>見出し</ArticleHeader>
+        <ArticleContent class="text-xs"
+          >こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</ArticleContent
+        >
+        <ArticleButton>View More</ArticleButton>
+      </ArticleMain>
+      <!------------------------->
+      <ArticleMain>
+        <ArticleHeader>見出し</ArticleHeader>
+        <ArticleContent class="text-xs"
+          >こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</ArticleContent
+        >
+        <ArticleButton>View More</ArticleButton>
+      </ArticleMain>
+      <!------------------------->
+      <ArticleMain>
+        <ArticleHeader>見出し</ArticleHeader>
+        <ArticleContent class="text-xs"
+          >こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</ArticleContent
+        >
+        <ArticleButton>View More</ArticleButton>
+      </ArticleMain>
+      <!------------------------->
+    </div>
   </div>
 </template>
