@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="header top-0 flex flex-row justify-between px-4 py-5 text-black"
+      class="header top-0 flex flex-row justify-between bg-white/20 px-4 py-5 text-black"
       :class="{
         ' bg-white text-black': isScroled,
         '': !isScroled,
