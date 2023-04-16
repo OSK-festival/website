@@ -3,6 +3,7 @@
     <TopImage />
     <div>
       <template v-for="article of topPageData">
+        <!-- eslint-disable-next-line vue/valid-v-for-->
         <ArticleMain :is-long-text="article.isLongText">
           <ArticleHeader>{{ article.title }}</ArticleHeader>
           <ArticleContent class="text-xs">{{ article.content }}</ArticleContent>
