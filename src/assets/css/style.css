@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&&family=Zen+Old+Mincho:wght@400;600;700&display=swap');
 
 body {
-  font-family: 'Zen Old Mincho', serif;
+  /* font-family: 'Zen Old Mincho', serif; */
+  font-family: 'Noto Sans JP', serif;
 }
 
 .section {
