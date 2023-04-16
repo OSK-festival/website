@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="leading-5">
     <!-- <TheHeader class="fixed w-full" :class="{ '-mt-20': path !== '/' }" /> -->
     <TheHeader class="fixed top-0 w-full" />
     <div>

@@ -10,6 +10,7 @@
     "lintfix": "prettier --write --list-different . && npm run lint -- --fix"
   },
   "devDependencies": {
+    "@nuxt/content": "^2.5.2",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
