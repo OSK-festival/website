@@ -3,7 +3,7 @@
     <div
       class="header top-0 flex flex-row justify-between px-4 py-5 text-black"
       :class="{
-        ' bg-white text-black': isScroled,
+        ' bg-teal-100 text-black': isScroled,
         'bg-white/20': !isScroled,
       }"
     >

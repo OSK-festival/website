@@ -14,5 +14,5 @@
 
 <script setup>
   // const { menu } = await useFetch('@asetts/json/menu.json');
-  import menuItems from '@/assets/json/menu.json';
+  import menuItems from '~~/src/assets/json/headerMenu.json';
 </script>

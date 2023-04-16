@@ -1,0 +1,14 @@
+[
+  {
+    "name": "このサイトについて",
+    "path": "/about-this-website/"
+  },
+  {
+    "name": "プライバシーポリシー",
+    "path": "/privacy/"
+  },
+  {
+    "name": "学校ウェブサイト",
+    "path": "https://google.com"
+  }
+]

@@ -7,7 +7,7 @@
         <NuxtPage class="mx-4 h-full" />
       </article>
     </div>
-    <ThwFotter />
+    <TheFotter />
   </div>
 </template>
 
