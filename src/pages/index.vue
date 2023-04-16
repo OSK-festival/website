@@ -4,14 +4,16 @@
     <div>
       <template v-for="article of topPageData">
         <!-- eslint-disable-next-line vue/valid-v-for-->
-        <ArticleMain :is-long-text="article.isLongText">
+        <ArticleMain :has-border="article.hasBorder">
           <ArticleHeader>{{ article.title }}</ArticleHeader>
-          <ArticleContent class="text-xs">{{ article.content }}</ArticleContent>
-          <ArticleButton v-if="article.button"
-            ><NuxtLink :to="article.button.link">
-              {{ article.button.text }}</NuxtLink
-            >
-          </ArticleButton>
+          <ArticleContent class="text-sm">{{ article.content }}</ArticleContent>
+          <template v-if="article.button">
+            <NuxtLink :to="article.button.link">
+              <ArticleButton>
+                {{ article.button.text }}
+              </ArticleButton>
+            </NuxtLink>
+          </template>
         </ArticleMain>
       </template>
     </div>

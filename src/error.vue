@@ -19,11 +19,12 @@
     <TheHeader class="fixed top-0 w-full" />
     <div>
       <article class="mt-20">
-        <div class="mx-4 h-96 border-2 py-16">
-          <ul class="p-72">
-            <li>{{ error?.statusCode }}</li>
-            <li>{{ error?.message }}</li>
-          </ul>
+        <div class="main mx-4">
+          <div class="text-5xl">{{ error?.statusCode }}</div>
+          <div class="pt-5">アクセスしたページは存在しません</div>
+          <NuxtLink to="/">
+            <ArticleButton> トップページへ </ArticleButton>
+          </NuxtLink>
         </div>
       </article>
     </div>
@@ -34,3 +35,21 @@
 <script setup lang="ts">
   const error = useError();
 </script>
+
+<style scoped>
+  .vh-100vh {
+    height: 100vh;
+  }
+
+  .main {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pt-5 {
+    padding-top: 1.25rem /* 20px */;
+  }
+</style>
