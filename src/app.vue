@@ -7,16 +7,8 @@
         <NuxtPage class="mx-4 h-full" />
       </article>
     </div>
+    <ThwFotter />
   </div>
 </template>
 
-<script setup>
-  // const route = useRoute();
-  // const path = ref(route.fullPath);
-  // watch(
-  // () => route.query,
-  // () => (isMenuOpen.value = false)
-  // () => (path.value = route.fullPath)
-  // );
-  // console.log(path.value);
-</script>
+<script setup></script>
