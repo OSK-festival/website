@@ -1,9 +1,15 @@
 <template>
   <div class="full -z-20 -mx-4 -mt-20">
     <div
-      class="absolute top-1/2 left-1/2 my-auto -translate-x-1/2 -translate-y-1/2 bg-white/60 text-center text-3xl text-gray-700"
+      class="absolute top-1/2 left-1/2 my-auto w-4/5 -translate-x-1/2 -translate-y-1/2 bg-white/60 text-center text-lg text-gray-700"
     >
-      <div>2023.09.10-11</div>
+      <div>
+        <!-- 2023.09. -->
+        <span class="text-3xl">2023</span>
+        <br />
+        <span class="text-5xl">9.9</span>(Sat.)<span class="text-5xl">-</span>
+        <span class="text-5xl">9.10</span>(San.)
+      </div>
     </div>
   </div>
 </template>
