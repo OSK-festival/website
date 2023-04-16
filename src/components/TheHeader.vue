@@ -1,10 +1,10 @@
 <template>
   <div>
     <div
-      class="header top-0 flex flex-row justify-between bg-white/20 px-4 py-5 text-black"
+      class="header top-0 flex flex-row justify-between px-4 py-5 text-black"
       :class="{
         ' bg-white text-black': isScroled,
-        '': !isScroled,
+        'bg-white/20': !isScroled,
       }"
     >
       <!------------------------------------------------------>
@@ -66,7 +66,7 @@
 </template>
 
 <script setup>
-  import menuItems from '@/assets/json/menu.json';
+  import menuItems from '@/assets/json/headerMenu.json';
   const isMenuOpen = ref(false);
 
   const change = () => {
@@ -99,7 +99,7 @@
     transition: all 0.5s;
   }
 
-  .v-enter {
+  /* .v-enter {
     opacity: 0;
   }
 
@@ -115,5 +115,5 @@
   .v-leave-to {
     opacity: 0;
     transition: opacity 1s;
-  }
+  } */
 </style>
