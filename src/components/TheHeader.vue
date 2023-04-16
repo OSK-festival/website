@@ -1,17 +1,27 @@
 <template>
   <div>
     <div
+      class="header top-0 flex flex-row justify-between px-4 py-5 text-black"
+      :class="{
+        ' bg-white text-black': isScroled,
+        '': !isScroled,
+      }"
+    >
+      <!------------------------------------------------------>
+      <!-- <div
       class="header top-0 flex flex-row justify-between px-4 py-5"
       :class="{
         'border-b-2 border-b-black/20 bg-white/60 text-black': isScroled,
         'text-white': !isScroled,
       }"
-    >
+      > -->
+      <!------------------------------------------------------>
+
       <!-- <transition>
         <div class="h-full"></div>
       </transition> -->
       <NuxtLink to="/">
-        <div class="text-3xl font-bold">文化祭デモサイト</div>
+        <div class="text-3xl font-bold">第◯回文化祭</div>
       </NuxtLink>
       <div class="hidden md:flex md:flex-row">
         <div v-for="menuItem of menuItems" :key="menuItem" class="mx-2 my-auto">
@@ -86,7 +96,7 @@
 
 <style scoped>
   .header {
-    transition: color 1s;
+    transition: all 0.5s;
   }
 
   .v-enter {
