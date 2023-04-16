@@ -1,39 +1,39 @@
 <template>
   <div>
-    <div>記念祭紹介ページ</div>
+    <div>文化祭紹介ページ</div>
     <p>
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
-      qqqqq<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
+      ダミーテキスト<br />
     </p>
   </div>
 </template>
