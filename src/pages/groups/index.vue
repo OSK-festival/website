@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <h1>団体紹介ページ</h1>
-  </div>
+  <div>団体紹介ページ</div>
 </template>
