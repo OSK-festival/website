@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <ContentDoc v-slot="{ doc }">
       <div class="nuxt-content">
         <h1>{{ doc.title }}</h1>
@@ -16,8 +16,10 @@
   // const { data: navigationData } = await useAsyncData('navigation', () => fetchContentNavigation())
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
   .nuxt-content {
+    @apply max-w-3xl md:mx-auto;
+
     p {
       @apply px-3;
     }
@@ -27,13 +29,11 @@
     }
 
     .description {
-      @apply my-3 bg-slate-400 p-5;
+      @apply my-3 bg-teal-100 p-5;
     }
-  }
 
-  .content-inner {
     h2 {
-      @apply text-center text-2xl text-red-600;
+      @apply my-3 border-b border-black py-1 text-xl;
     }
   }
 </style>

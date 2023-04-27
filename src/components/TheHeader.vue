@@ -21,7 +21,7 @@
         <div class="h-full"></div>
       </transition> -->
       <NuxtLink to="/">
-        <div class="text-3xl font-bold">第◯回文化祭</div>
+        <div class="text-3xl font-bold">第75回記念祭</div>
       </NuxtLink>
       <div class="hidden md:flex md:flex-row">
         <div v-for="menuItem of menuItems" :key="menuItem" class="mx-2 my-auto">

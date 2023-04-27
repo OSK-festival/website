@@ -4,7 +4,7 @@
     <TheHeader class="fixed top-0 w-full" />
     <div>
       <article class="mt-20">
-        <NuxtPage class="mx-4 h-full" />
+        <NuxtPage class="mx-6 mb-10 h-full" />
       </article>
     </div>
     <TheFotter />
