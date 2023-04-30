@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div
       class="header top-0 flex flex-row justify-between px-4 py-5 text-black"
       :class="{
@@ -21,7 +21,7 @@
         <div class="h-full"></div>
       </transition> -->
       <NuxtLink to="/">
-        <div class="text-3xl font-bold">第◯回文化祭</div>
+        <div class="text-3xl">第75回記念祭</div>
       </NuxtLink>
       <div class="hidden md:flex md:flex-row">
         <div v-for="menuItem of menuItems" :key="menuItem" class="mx-2 my-auto">
@@ -81,8 +81,12 @@
 
   const isScroled = ref(false);
   function changeHeaderColor() {
+    // const route = useRoute();
+    // const offset =
+    // console.log(route.path === '/');
+
     const yCoordinate = window.scrollY;
-    if (yCoordinate > window.innerHeight - 100) {
+    if (yCoordinate > (route.path === '/' ? window.innerHeight - 40 : 40)) {
       isScroled.value = true;
     } else {
       isScroled.value = false;

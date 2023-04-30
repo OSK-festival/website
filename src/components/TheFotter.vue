@@ -8,7 +8,7 @@
       </div>
     </div>
     <!-- {{ postdata }} -->
-    <div class="text-center text-xs text-gray-500">© 2023文化祭実行委員会</div>
+    <div class="text-center text-xs text-gray-500">© 2023 第75期記念祭幹部</div>
   </div>
 </template>
 
