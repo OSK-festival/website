@@ -1,3 +1,3 @@
 <template>
-  <div></div>
+  <div>これまでの歴史</div>
 </template>
