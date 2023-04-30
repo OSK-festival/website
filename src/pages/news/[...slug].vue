@@ -38,7 +38,7 @@
     // }
 
     h2 {
-      @apply relative my-3 border-b border-teal-400 py-1 pl-7 text-xl;
+      @apply relative -z-10 my-3 border-b border-teal-400 py-1 pl-7 text-xl;
     }
 
     h2::before {
