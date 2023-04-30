@@ -32,7 +32,7 @@
     "content": "参加する団体の一覧です。今年は，例年以上にたくさんの団体が参加予定です。",
     "button": {
       "text": "Read more",
-      "link": "https://oskfes75.vercel.app/groupes/ "
+      "link": "./groupes/ "
     }
   },
   {
@@ -41,7 +41,7 @@
     "content": "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト",
     "button": {
       "text": "Read more",
-      "link": "https://oskfes75.vercel.app/groupes/ "
+      "link": "./groupes/ "
     }
   }
 ]
