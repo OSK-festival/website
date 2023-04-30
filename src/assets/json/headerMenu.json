@@ -13,14 +13,14 @@
   },
   {
     "name": "団体一覧",
-    "path": "/groupes/"
+    "path": "/groups/"
   },
   {
     "name": "イベント一覧",
     "path": "/events/"
   },
   {
-    "name": "SNS",
-    "path": "/sns/"
+    "name": "学校ウェブサイト",
+    "path": "https://google.com"
   }
 ]
