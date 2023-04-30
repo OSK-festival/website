@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div
       class="header top-0 flex flex-row justify-between px-4 py-5 text-black"
       :class="{
@@ -81,12 +81,12 @@
 
   const isScroled = ref(false);
   function changeHeaderColor() {
-    const route = useRoute();
+    // const route = useRoute();
     // const offset =
-    // console.log(route.Path === '/');
-    console.log(route.fullPath);
+    // console.log(route.path === '/');
+
     const yCoordinate = window.scrollY;
-    if (yCoordinate > window.innerHeight - 100) {
+    if (yCoordinate > (route.path === '/' ? window.innerHeight - 40 : 40)) {
       isScroled.value = true;
     } else {
       isScroled.value = false;
